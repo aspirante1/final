@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./1099209.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box{
+    width: 450px;
+    height: 450px;
+    background:transparent rgba(255, 255, 255);
+    box-shadow: 5px 15px 25px rgba(0,0,0,.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 50px 70px 0;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -9%;
+    left: calc(50% - 50px);
+  }
+h1,h2{
+    margin: 0;
+    padding: 10px 2px 30px;
+    text-align: center;
+    font-size: 22px;
+    font-weight:bold;
+    color: rgba(255, 117, 173, 0.932);
+}
+h2{
+    padding: 30px 0 0;
+}
+.central,.box2{
+    text-align: center;
+    justify-content:center;
+    position: relative;
+    padding: 5px ;
+}
+.textoinput, .mensagem{
+    width: 100%;
+    margin-bottom:20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgba(15, 35, 95);
+    font-size: 16px;
+    transition: 1s all;
+}
+#label{
+    font-size: 16px;
+    padding:0 0 10px;
+    color:rgb(254, 254, 254);
+
+}
+.textoinput:hover{ 
+    border-bottom: 2px solid rgba( 255, 129, 208);
+    font-size: 20px;
+    font-weight: bold;
+}
+.mensagem:hover{
+    border-bottom: 2px solid rgba( 255, 129, 208);
+    font-size: 20px;
+    font-weight: bold;
+}
+input::placeholder{
+    color: rgba(95, 194, 198, 0.678);
+    text-align: center;
+}
+.btn{
+    border:none;
+    outline: none;
+    text-decoration: none;
+    height: 40px;
+    background:rgba(255, 190, 217, 0.658);
+    color:rgb(254, 254, 254);
+    font-size: 16px;
+    border-radius: 2px;
+    padding:10px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.btn:hover{
+    background: rgba(218, 112, 214, 0.411);
+    color:rgba(41, 9, 87, 0.575);
+    font-size: 20px;
+}
